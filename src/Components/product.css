@@ -1,0 +1,60 @@
+.maincard{
+    display: flex;
+    gap: 120px;
+    flex-wrap:wrap;
+    justify-content: center;
+    position: absolute;
+}
+
+
+.card{
+    height: auto;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5%;
+    box-shadow: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;    
+    
+}
+
+.image{
+    height: 30%;
+    width: 30%;
+    
+    margin: 0px;
+
+}
+.btn{
+    justify-content: flex-end;
+    position: relative;
+   text-align: center;
+
+
+}
+
+.btn button{
+height: 30px;
+border-radius:50px;
+color: white;
+width: 250px;
+background-color:rgba(37, 0, 139, 0.754);
+border: none;
+
+
+}
+.productname{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size:large;
+    margin: 0px;
+    padding: 10px;
+}
+.price{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+}
